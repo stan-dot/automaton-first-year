@@ -1,0 +1,42 @@
+
+//from status functions
+function populationStatus(x, y) {
+    var cell = document.getElementsByClassName('life')[0].getElementsByClassName('x' + x + 'y' + y)[0];
+    //
+    return //some integer meaning population size
+  }
+
+  function resourceStatus(x, y) {
+    var cell = document.getElementsByClassName('life')[0].getElementsByClassName('x' + x + 'y' + y)[0];
+    
+    return //some integer meaning population size
+  }
+
+
+  //from next generation
+  if (coinFlip()) {
+    live.push({
+      x: ix,
+      y: iy
+    });
+  }
+} else {
+  if (census(ix, iy)) {
+    live.push({
+      x: ix,
+      y: iy
+    });
+  }
+
+
+  function census(x, y){
+}
+
+
+
+function coinFlip() {
+    return (Math.floor(Math.random() * 2) == 0);
+  }
+
+
+  //conditional functions
