@@ -19,9 +19,10 @@ so that interface looks good */
     float: left;
   }
   
-  .cell{
-    color: rgb(255,0,0);
+  /*.cell{
+    color: rgb(0,50,0);
   }
+  */
   /*
   .cell[pop = '10'] {
     color: #ffffff;
@@ -56,9 +57,9 @@ so that interface looks good */
   #map{
     display: block;
     margin-top: 5%;
-    width: 100%;
-    height: 100vh;
-    border: 2px solid red;
+    width: 80%;
+    height: 80%;
+    border: 2px solid green;
     position: fixed;
   }
 
@@ -73,4 +74,9 @@ so that interface looks good */
     border: 5px solid green;
     position:fixed;
     
+  }
+
+  #stopbutton{
+    position: fixed;
+    right:80%;
   }
